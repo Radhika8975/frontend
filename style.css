@@ -1,0 +1,393 @@
+    /* CSS for All */
+    
+    * {
+        margin: 0 0;
+        padding: 0 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1%;
+    }
+    
+    .img-responsive {
+        width: 100%;
+    }
+    
+    .img-curve {
+        border-radius: 15px;
+    }
+    
+    .text-right {
+        text-align: right;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .text-white {
+        color: white;
+    }
+    
+    .clearfix {
+        clear: both;
+        float: none;
+    }
+    
+    a {
+        color: #ff6b81;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #ff4757;
+    }
+    
+    .btn {
+        padding: 2%;
+        border: none;
+        font-size: 1rem;
+        border-radius: 22px;
+    }
+    
+    .btn1 {
+        padding: 1%;
+        border: none;
+        font-size: 1rem;
+        border-radius: 4px;
+    }
+    
+    .btn-primary {
+        background-color: #ff6b81;
+        color: white;
+        cursor: pointer;
+        width: 113px;
+        margin: 10px;
+    }
+    
+    .btn-primary:hover {
+        color: white;
+        background-color: #ff4757;
+    }
+    
+    h2 {
+        color: #2f3542;
+        font-size: 2rem;
+        margin-bottom: 2%;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    .float-container {
+        position: relative;
+    }
+    
+    .float-text {
+        position: absolute;
+        bottom: 50px;
+        left: 40%;
+    }
+    /* CSSS for navbar section */
+    
+    .logo {
+        width: 10%;
+        float: left;
+    }
+    
+    .menu {
+        line-height: 60px;
+    }
+    
+    .menu ul {
+        list-style-type: none;
+    }
+    
+    .menu ul li {
+        display: inline;
+        padding: 1%;
+        font-weight: bold;
+    }
+    /* CSS for Food SEarch Section */
+    
+    .food-search {
+        background-image: url(images/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 7% 0;
+    }
+    
+    .food-search input[type="search"] {
+        width: 50%;
+        padding: 1%;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .food1 {
+        width: 45%;
+        /*float: right;
+    */
+    }
+    /* CSS for Categories */
+    
+    .categories {
+        padding: 4% 0;
+    }
+    
+    .box-3 {
+        width: 28%;
+        float: left;
+        margin: 2%;
+    }
+    /* CSS for Food Menu */
+    
+    .food-menu {
+        background-color: #ececec;
+        padding: 4% 0;
+    }
+    
+    .food-menu-box {
+        width: 43%;
+        margin: 1%;
+        padding: 2%;
+        float: left;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .food-menu-img {
+        width: 20%;
+        float: left;
+    }
+    
+    .food-menu-desc {
+        width: 70%;
+        float: left;
+        margin-left: 8%;
+    }
+    
+    .food-price {
+        font-size: 1.2rem;
+        margin: 2% 0;
+    }
+    
+    .food-detail {
+        font-size: 1rem;
+        color: #747d8c;
+    }
+    /* CSS for Social */
+    
+    .social ul {
+        list-style-type: none;
+    }
+    
+    .social ul li {
+        display: inline;
+        padding: 1%;
+    }
+    /* food order */
+    
+    fieldset {
+        padding-right: 45px;
+    }
+    /* Contact page start here */
+    
+    #Contact {
+        background-color: #269cca1c;
+        padding-bottom: 60px;
+    }
+    
+    .stat-title {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 35px;
+        padding-bottom: 63px;
+    }
+    
+    .contact-container {
+        margin: 0px 200px 0px 200px;
+    }
+    
+    .contact-content-con {
+        display: flex;
+        /* padding-top: 3.5rem; */
+    }
+    
+    .left-contact {
+        flex: 2;
+    }
+    
+    .left-contact h4 {
+        margin-top: 1rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    
+    .left-contact p {
+        margin: 1rem 0;
+        line-height: 2rem;
+    }
+    
+    .contact-info .contact-item {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    
+    .contact-info .contact-item p {
+        margin: .3rem 0 !important;
+        padding: 0 !important;
+    }
+    
+    .contact-info .contact-item .icon {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+    }
+    
+    .contact-info .contact-item i {
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+    
+    .contact-icon {
+        display: flex;
+        margin-top: 2rem;
+    }
+    
+    .contact-icon a {
+        display: flex;
+        align-items: center;
+        /* color: #f1f4f2; */
+        background-color: #595252;
+        cursor: pointer;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 .4rem;
+        transition: all .4s ease-in-out;
+    }
+    
+    .contact-icon a:hover {
+        background-color: #0b0a0af7;
+    }
+    
+    .contact-icon i {
+        color: #fbf9fb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+    }
+    
+    .right-contact {
+        flex: 3;
+        margin-left: 3rem;
+    }
+    
+    .input-control {
+        margin: 1.5rem;
+    }
+    
+    input,
+    textarea {
+        border-radius: 30px;
+        font-weight: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        padding: 10px 1.1rem;
+        outline: none;
+        border: none;
+        background-color: #595252;
+        width: 100%;
+        color: #f5f8f8;
+        resize: none;
+    }
+    
+    .input-control12 {
+        display: flex;
+        margin-left: 21px;
+        margin-right: 25px;
+    }
+    
+    .input-control12 :last-child {
+        margin-left: 0.5rem;
+    }
+    
+    .btnCon {
+        padding: .7rem 2rem;
+        background: #595252;
+        color: #ffffff;
+        cursor: pointer;
+        /* margin-top: 1rem; */
+        font-size: 1rem;
+        border-radius: 5rem;
+        border: none;
+        margin-left: 33px;
+    }
+    
+    .btnCon i {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    
+    .btnCon:hover {
+        background: #0e0e0e;
+    }
+    /* contact page end here */
+    /* CSS for Mobile Size or Smaller Screen */
+    
+    @media only screen and (max-width:768px) {
+        .logo {
+            width: 80%;
+            float: none;
+            margin: 1% auto;
+        }
+        .menu ul {
+            text-align: center;
+        }
+        .food-search input[type="search"] {
+            width: 90%;
+            padding: 2%;
+            margin-bottom: 3%;
+        }
+        .btn {
+            width: 91%;
+            padding: 2%;
+        }
+        .food-search {
+            padding: 10% 0;
+        }
+        .categories {
+            padding: 20% 0;
+        }
+        h2 {
+            margin-bottom: 10%;
+        }
+        .box-3 {
+            width: 100%;
+            margin: 4% auto;
+        }
+        .food-menu {
+            padding: 20% 0;
+        }
+        .food-menu-box {
+            width: 90%;
+            padding: 5%;
+            margin-bottom: 5%;
+        }
+        /* .order-label .food-menu-desc .input-responsive {
+        width: 135px;
+    } */
+        .social {
+            padding: 5% 0;
+        }
+    }
